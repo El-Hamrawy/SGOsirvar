@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sgosirvar.ServerInterface">
+   <children>
+      <Label layoutX="43.0" layoutY="20.0" prefWidth="112.0" text="Online Users">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="20.0" prefWidth="88.0" text="Busy Users">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="20.0" prefWidth="114.0" text="Offline Users">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="237.0" orientation="VERTICAL" prefHeight="380.0" prefWidth="7.0" />
+      <Separator layoutX="456.0" orientation="VERTICAL" prefHeight="380.0" prefWidth="7.0" />
+      <TextArea fx:id="onlineUsersArea" editable="false" layoutX="25.0" layoutY="50.0" prefHeight="320.0" prefWidth="200.0" />
+      <TextArea fx:id="busyUsersArea" editable="false" layoutX="248.0" layoutY="50.0" prefHeight="320.0" prefWidth="190.0" />
+      <TextArea fx:id="offlineUsersArea" editable="false" layoutX="475.0" layoutY="50.0" prefHeight="320.0" prefWidth="136.0" />
+   </children>
+</AnchorPane>
